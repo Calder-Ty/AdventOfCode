@@ -31,7 +31,6 @@ impl CargoBay {
         for _ in 0..mo.quant {
             if let Some(x) = self.stacks[from].pop() {
                 temp.insert(0, x);
-                // self.stacks[to].push(x);
             } else {
                 // There is nothing left to move
                 println!("warning, ran out of things to move");

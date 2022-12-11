@@ -1,3 +1,6 @@
+pub mod day7;
+
+
 #[cfg(test)]
 mod tests {
     #[test]
